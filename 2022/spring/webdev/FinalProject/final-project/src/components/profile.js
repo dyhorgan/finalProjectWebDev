@@ -24,8 +24,7 @@ const Profile = () => {
         useEffect(() => {findAllProfiles(dispatch)},[dispatch]);
 //    let {imageURL, username} = profile[0];
 
-        console.log("before return");
-        console.log(state);
+
 
     return (<div>
       <h1>Profile Page</h1>
